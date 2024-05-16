@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000113;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+
+}
+
+nav {
+  background-color: #036096;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #036096;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0075f1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px; 
+}
+
+button.edit-btn,
+button.delete-btn {
+  margin-left: 15px; 
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #005213;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.edit-btn:hover,
+button.delete-btn:hover {
+  background-color: #218838;
+}
+
+button.delete-btn {
+  background-color: #b80416;
+}
+
+button.delete-btn:hover {
+  background-color: #c82333;
+}
+button#clearListBtn,
+button#exportListBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #036096;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px; 
+  transition: background-color 0.3s ease; 
+}
+button#clearListBtn:hover,
+button#exportListBtn:hover {
+  background-color: #0075f1; 
+}
+footer {
+  background-color: #000113;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
